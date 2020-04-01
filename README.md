@@ -4,7 +4,7 @@ This is the final assignment for my Client Side Programming class.
 
 This application leverages the [PokeApi](https://pokeapi.co/) to create a pokemon team builder. This invloves searching for pokemon based on different criteria (name and type), and adding them to a team of six. As you add and remove pokemon, your average stats are calculated based on the stats of each pokemon on your team.
 
-**DESIGN** - In addition to this file, a [Folder]() has been created to contain files related to the design of this application
+**DESIGN** - In addition to this file, a [Folder](https://github.com/matt-walsh/team-maker/tree/master/design) has been created to contain files related to the design of this application.
 
 **REQ1** - You will use JavaScript's fetch functionality to grab data from an external web resource (API). The data must be in either JSON or XML format.
 
