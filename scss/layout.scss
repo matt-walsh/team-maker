@@ -1,0 +1,84 @@
+.grid-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.4fr 1.4fr;
+    gap: 1px 1px;
+    grid-template-areas: "poke-title poke-title poke-title poke-title" "poke-list poke-data poke-data poke-data" "poke-team poke-team poke-stats poke-stats";
+
+    .poke-list { 
+        grid-area: poke-list;
+        max-height: 400px;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .poke-data { 
+        grid-area: poke-data; 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .poke-stats-stats{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .poke-types{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .poke-title { 
+        grid-area: poke-title;
+    }
+
+    #poke-team { 
+        grid-area: poke-team;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #poke-stats { 
+        grid-area: poke-stats; 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .average-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+
+.team-pokemon{
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "poke-name poke-image" "poke-stats poke-stats";
+    h2 { 
+        grid-area: poke-name;
+        display: block;
+    }
+    
+    img { grid-area: poke-image; }
+    
+    div { 
+        grid-area: poke-stats;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr; 
+    }
+
+    button{
+        grid-column: 2;
+    }
+}

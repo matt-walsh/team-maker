@@ -1,0 +1,26 @@
+{
+  "name": "team-maker",
+  "version": "1.0.0",
+  "description": "Plan a team of Pokemon. ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-walsh/team-maker.git"
+  },
+  "author": "Matt Walsh",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/matt-walsh/team-maker/issues"
+  },
+  "homepage": "https://github.com/matt-walsh/team-maker#readme",
+  "dependencies": {
+    "fuse.js": "^5.2.3"
+  },
+  "devDependencies": {
+    "sass": "^1.26.5"
+  }
+}

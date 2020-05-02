@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/type-badge.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> 
+    <title>Pokemon Team Builder</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="poke-title">
+            <h1>Team Builder</h1>
+        </div>
+        <div class="poke-list">
+            <h2>Select a Pokemon</h2>
+            <label for="seach-field">Search</label>
+            <input type="text" id="search-field">
+
+            <div>
+                <input type="radio" name="search-radio" id="search-name" checked>
+                <label for="search-name">By Pokemon Name</label>
+            </div>
+            <div>
+                <input type="radio" name="search-radio" id="search-type">
+                <label for="search-type">By Pokemon Type</label>
+            </div>
+
+            <div id="poke-select">
+                <!-- Pokemon Added from API here -->
+            </div>
+        </div>
+        <div class="poke-data" id="poke-stat-block">
+            <!-- Pokemon Stat Block here -->
+        </div>
+        <div id="poke-team">
+            <!-- Pokemon Team here -->
+        </div>
+        <div id="poke-stats">
+            <!-- Team Statistics here -->
+        </div>
+      </div>
+      
+      <!-- DEV -->
+      <script src="node_modules\fuse.js\dist\fuse.basic.js"></script>
+      <!-- PROD -->
+      <script src="js/lib/fuse.basic.min.js"></script>
+      <script src="js/lib/voca.min.js"></script>
+      <script src="js/data-layer.js" type="module"></script>
+</body>
+</html>

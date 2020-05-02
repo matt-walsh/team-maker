@@ -1,0 +1,90 @@
+$normal-color: #6D6D4E;
+$fire-color: #9C531F;
+$fighting-color: #7D1F1A;
+$water-color: #445E9C;
+$flying-color: #6D5E9C;
+$grass-color: #4E8234;
+$poison-color: #682A68;
+$electric-color: #A1871F;
+$ground-color: #927D44;
+$psychic-color: #A13959;
+$rock-color: #786824;
+$ice-color: #638D8D;
+$bug-color: #6D7815;
+$dragon-color: #4924A1;
+$ghost-color: #493963;
+$dark-color: #49392F;
+$steel-color: #787887;
+$fairy-color: #9B6470;
+
+.type-badge{
+    width: 100px;
+    height: 25px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 5%;
+
+    margin: 10px;
+
+    &#normal{
+        background-color: $normal-color;
+    }
+    &#fire{
+        background-color: $fire-color;
+    }
+    &#fighting{
+        background-color: $fighting-color;
+    }
+    &#water{
+        background-color: $water-color;
+    }
+    &#flying{
+        background-color: $flying-color;
+    }
+    &#grass{
+        background-color: $grass-color;
+    }
+
+    &#poison{
+        background-color: $poison-color;
+    }
+    &#electric{
+        background-color: $electric-color;
+    }
+    &#ground{
+        background-color: $ground-color;
+    }
+    &#psychic{
+        background-color: $psychic-color;
+    }  
+    &#rock{
+        background-color: $rock-color;
+    }  
+    &#ice{
+        background-color: $ice-color;
+    }
+    &#bug{
+        background-color: $bug-color;
+    }
+    &#dragon{
+        background-color: $dragon-color;
+    }
+    &#ghost{
+        background-color: $ghost-color;
+    }
+    &#dark{
+        background-color: $dark-color;
+    }
+    &#steel{
+        background-color: $steel-color;
+    }
+    &#fairy{
+        background-color: $fairy-color;
+    }
+}
